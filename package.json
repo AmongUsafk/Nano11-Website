@@ -2,6 +2,9 @@
   "name": "Nano11-Website",
   "version": "1.0.0",
   "main": "Nano11Website/index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.12.3",
