@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #001f3f, #800080);
+    color: #ffffff;
+  }
+  
+  .header {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #00ffcc;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #001f3f, #800080);
+  }
+  
+  .hero-title {
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+  }
+  
+  .hero-subtitle {
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff;
+  }
+  
+  .download-button, .join-community-button, .submit-button, .chat-button, .signup-button {
+    margin-top: 20px;
+  }
+  
+  .features {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+  }
+  
+  .feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-icon {
+    font-size: 40px;
+    color: #00ffcc;
+    margin-bottom: 10px;
+  }
+  
+  .community {
+    background: linear-gradient(to bottom, #800080, #001f3f);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .testimonial {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .download {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .version-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .version-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .requirements-list {
+    list-style: none;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+  .support {
+    background: linear-gradient(to bottom, #001f3f, #800080);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .faq {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .faq:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .footer {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer a {
+    color: #ffffff;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-shadow: 0 0 5px #00ffcc;
+  }
+  
+  /* Custom scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #001f3f;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #00ff00, #00ffff);
+    border-radius: 6px;
+    transition: background 0.3s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #00ffff, #00ff00);
+  }
+  
